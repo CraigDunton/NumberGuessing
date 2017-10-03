@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="main-screen">
+    <h1>I'm Thinking of A Number...</h1>
+
+    <div class="hintContainer">
+        <h2 id="hints"></h2>
+    </div>
+
+    <div id="form-container" class="form-container" data-request-url="@Url.Action("Check","Home")" >
+        <input type="number" min="1" max="100" id="numberField" name="numberField" placeholder="Guess a number between 1-100"/>
+        <input type="button" name="checkButton" onclick="check()" value="Guess" />
+    </div>
+
+</div>
+
+<script src="~/Scripts/checker.js"></script>

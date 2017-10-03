@@ -1,0 +1,73 @@
+﻿body {
+    background: #fbfcfd;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #fbfcfd
+}
+
+.hintContainer {
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.hintContainer h2 {
+    color: #ff0000;
+}
+
+.form-container{
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+}
+
+/*Add padding, make background kind of pretty*/
+.main-screen {
+    padding: 15px;
+    background: #8cc63f;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    padding: 10px;
+    width: 300px;
+    border: 5px;
+}
+
+input[type=button]:focus {
+    outline: none;
+}
+
+input[type=number]:focus {
+    padding: 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+}
